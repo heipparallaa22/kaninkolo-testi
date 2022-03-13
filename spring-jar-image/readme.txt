@@ -4,3 +4,10 @@ kubectl create secret \
     --docker-username=qwerty22 \
     --docker-password=OKOoko2222 \
     --docker-email=unto.j.valkonen@icloud.com
+
+
+
+
+kubectl create -f pod.yaml
+
+kubectl logs kaniko

@@ -8,7 +8,8 @@ spec:
     - name: kaniko
       image: gcr.io/kaniko-project/executor:latest
       args: [ "--dockerfile=Dockerfile",
-              "--context=git://github.com/scriptcamp/kubernetes-kaniko",
+              "--context=git://github.com/heipparallaa22/kaninkolo-testi",
+#              "--context=git://github.com/scriptcamp/kubernetes-kaniko",
               "--destination=qwerty22/kaniko-demo-image:2.0" ]
       volumeMounts:
         - name: kaniko-secret
