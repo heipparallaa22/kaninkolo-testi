@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/getit"
+  },
+  "response": {
+    "status": 200,
+    "body": "And the Answer is : GET IT !\n"
+  }
+}

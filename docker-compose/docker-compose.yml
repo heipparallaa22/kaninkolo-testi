@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+
+  restapi:
+    container_name: restapi
+    hostname: restapi
+    image: restapi
+    build: ./restapi
+    ports:
+      - '18080:8080'
+
+  wiremock:
+    container_name: wiremock
+    hostname: wiremock
+    build: ./wiremock
+    ports:
+      - '19090:9090'
