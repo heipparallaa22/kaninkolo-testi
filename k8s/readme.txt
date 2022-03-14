@@ -20,10 +20,10 @@ kubectl apply -f wiremock-service.yaml
 
 
 
-ok23:k8s $ minikube service --url restapi-service
+ok23:k8s $ minikube service --url restapi
 http://192.168.99.113:30080
 
-ok23:k8s $ minikube service --url wiremock-service
+ok23:k8s $ minikube service --url wiremock
 http://192.168.99.113:30080
 
 

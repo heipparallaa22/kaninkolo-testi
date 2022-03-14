@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restapi
-          image: qwerty22/restapi:7
+          image: qwerty22/restapi:2.0
 #          imagePullPolicy: Never
           ports:
             - containerPort: 80
