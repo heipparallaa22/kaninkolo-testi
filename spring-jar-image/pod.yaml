@@ -9,7 +9,7 @@ spec:
       image: gcr.io/kaniko-project/executor:latest
       args: [ "--dockerfile=spring-jar-image/dockerfile/Dockerfile",
               "--context=git://github.com/heipparallaa22/kaninkolo-testi",
-#              "--context=git://github.com/scriptcamp/kubernetes-kaniko",
+              "--context-sub-path=spring-jar-image/dockerfile",
               "--destination=qwerty22/restapi:2.0" ]
       volumeMounts:
         - name: kaniko-secret
