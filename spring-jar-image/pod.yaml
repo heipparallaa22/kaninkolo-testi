@@ -8,8 +8,8 @@ spec:
     - name: kaniko
       image: gcr.io/kaniko-project/executor:latest
       args: [ "--context=git://github.com/heipparallaa22/kaninkolo-testi",
-              "--dockerfile=spring-jar-image/dockerfile/Dockerfile",
               "--context-sub-path=spring-jar-image/dockerfile/",
+              "--dockerfile=Dockerfile",
               "--destination=qwerty22/restapi:2.0" ]
       volumeMounts:
         - name: kaniko-secret
