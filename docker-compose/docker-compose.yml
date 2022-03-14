@@ -5,14 +5,22 @@ services:
   restapi:
     container_name: restapi
     hostname: restapi
-    image: restapi
-    build: ./restapi
+    image: qwerty22/kaniko-demo-image:2.0
     ports:
       - '18080:8080'
 
-  wiremock:
-    container_name: wiremock
-    hostname: wiremock
-    build: ./wiremock
-    ports:
-      - '19090:9090'
+
+#  restapi:
+#    container_name: restapi
+#    hostname: restapi
+#    image: restapi
+#    build: ./restapi
+#    ports:
+#      - '18080:8080'
+
+#  wiremock:
+#    container_name: wiremock
+#    hostname: wiremock
+#    build: ./wiremock
+#    ports:
+#      - '19090:9090'

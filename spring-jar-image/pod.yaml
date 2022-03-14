@@ -7,7 +7,7 @@ spec:
   containers:
     - name: kaniko
       image: gcr.io/kaniko-project/executor:latest
-      args: [ "--dockerfile=Dockerfile",
+      args: [ "--dockerfile=spring-jar-image/dockerfile/Dockerfile",
               "--context=git://github.com/heipparallaa22/kaninkolo-testi",
 #              "--context=git://github.com/scriptcamp/kubernetes-kaniko",
               "--destination=qwerty22/kaniko-demo-image:2.0" ]
