@@ -10,7 +10,7 @@ spec:
       args: [ "--dockerfile=spring-jar-image/dockerfile/Dockerfile",
               "--context=git://github.com/heipparallaa22/kaninkolo-testi",
 #              "--context=git://github.com/scriptcamp/kubernetes-kaniko",
-              "--destination=qwerty22/kaniko-demo-image:2.0" ]
+              "--destination=qwerty22/restapi:2.0" ]
       volumeMounts:
         - name: kaniko-secret
           mountPath: "/kaniko/.docker"
