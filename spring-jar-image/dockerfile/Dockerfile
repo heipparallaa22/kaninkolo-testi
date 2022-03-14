@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-COPY app.jar app.jar
+COPY spring-jar-image/dockerfile/app.jar app.jar
 
 #ARG JAR_FILE=./app.jar
 #COPY ${JAR_FILE} app.jar

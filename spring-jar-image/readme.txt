@@ -11,3 +11,7 @@ kubectl create secret \
 kubectl create -f pod.yaml
 
 kubectl logs kaniko
+
+
+
+spring-jar-image/dockerfile/app.jar
