@@ -10,7 +10,7 @@ spec:
       args: [ "--context=git://github.com/heipparallaa22/kaninkolo-testi",
               "--context-sub-path=kaniko-standalone-setup/restapi/docker/",
               "--dockerfile=Dockerfile",
-              "--destination=qwerty22/restapi:3.1" ]
+              "--destination=qwerty22/restapi-restassured:0" ]
       volumeMounts:
         - name: kaniko-secret
           mountPath: "/kaniko/.docker"
