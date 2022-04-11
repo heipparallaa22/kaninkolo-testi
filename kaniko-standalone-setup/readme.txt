@@ -1,7 +1,9 @@
 kubectl create secret \
     docker-registry dockercred \
     --docker-server=https://index.docker.io/v1/ \
-
+    --docker-username=qwerty22 \
+    --docker-password=OKOoko_1212 \
+    --docker-email=unto.j.valkonen@icloud.com
 
 
 
